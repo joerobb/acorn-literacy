@@ -33,7 +33,7 @@
             
             $('html, body').animate({
                 scrollTop: $(this.hash).offset().top - 45
-            }, 1500, 'easeInOutExpo');
+            }, 200, 'easeInOutExpo');
             
             if ($(this).parents('.navbar-nav').length) {
                 $('.navbar-nav .active').removeClass('active');
@@ -88,10 +88,9 @@
             }
         });
 
-
       ketikin('.hero-header .container .row .text-center h1', {
-        texts: ["Excel at reading", "Grow confident with phonics", "Gain reading confidence"],
-        speed: 0.5,
+        texts: ["Become fluent readers", "Master phonics", "Excel in their SATS", "Develop comprehension skills"],
+        speed: -10,
         loop: false
       })
 
